@@ -1,7 +1,7 @@
 package com.example.codeclinicmodules.model
 
-data class Student(
+data class User(
     val name: String,
-    val grade: Double,
+    val email: String,
     val age: Int
 )
